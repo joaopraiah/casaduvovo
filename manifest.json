@@ -1,0 +1,9 @@
+{
+  "name": "Casa Du Vovô",
+  "short_name": "Du Vovô",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF7F1",
+  "theme_color": "#1F1B18",
+  "icons": [{ "src": "logo.png", "sizes": "500x500", "type": "image/png" }]
+}

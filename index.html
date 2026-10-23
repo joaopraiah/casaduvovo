@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1F1B18">
+<title>Casa Du Vovô</title>
+<link rel="icon" href="logo.png">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<style>
+.selo-demo{position:fixed;top:10px;left:50%;transform:translateX(-50%);z-index:9999;background:#141414;color:#fff;
+font:500 12px/1.3 Inter,system-ui,sans-serif;padding:7px 14px;border-radius:999px;max-width:calc(100vw - 32px);text-align:center;
+box-shadow:0 4px 18px rgba(0,0,0,.18)}
+.selo-demo b{color:#F07A2A}
+.selo-demo button{all:unset;cursor:pointer;text-decoration:underline}
+@media (max-width:700px){.selo-demo{top:auto;bottom:88px;font-size:11px;padding:5px 12px}.selo-mais{display:none}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="modal-raiz"></div>
+<div id="aviso" role="status" aria-live="polite"></div>
+<script src="sql-wasm.js"></script>
+<script src="demo.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
